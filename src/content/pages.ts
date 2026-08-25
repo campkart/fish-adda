@@ -30,7 +30,7 @@ export const HOME = {
     description:
       "Fish Adda, a new QSR by Jyoty Food And Beverages, opens soon at Parnasree, Behala, Kolkata. Fish fry, rolls, momos, maggi, pasta, tea and coffee in a Bengali folk-art adda.",
     ogTitle: "Fish Adda — The New Food Adda of Behala",
-    ogDescription: "Coming soon to Parnasree, Behala, Kolkata. Food, people and the spirit of adda.",
+    ogDescription: "Parnasree, Behala, Kolkata. Food, people and the spirit of adda.",
   },
   hero: {
     titleLine1: "Mon bole Fish,",
@@ -79,7 +79,7 @@ export const MENU_PAGE = {
     ogTitle: "The Adda Menu — Fish Adda, Behala",
     ogDescription: "A little bit of everything you'll crave, opening soon in Parnasree, Behala.",
   },
-  eyebrow: "Coming soon • Parnasree, Behala",
+  eyebrow: "• Parnasree, Behala",
   title: "The Adda Menu",
   sub: "A little bit of everything you'll crave.",
   pricingNote: "Pricing will be announced closer to launch.",

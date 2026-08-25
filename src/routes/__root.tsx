@@ -13,7 +13,7 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Navbar, BottomNav } from "../components/navbar";
 import { Footer } from "../components/footer";
-import { WhatsAppFab } from "../components/ui-kit";
+//import { WhatsAppFab } from "../components/ui-kit";
 
 function NotFoundComponent() {
   return (
@@ -159,7 +159,7 @@ function RootComponent() {
         <Outlet />
       </main>
       <Footer />
-      <WhatsAppFab />
+      
       <BottomNav />
     </QueryClientProvider>
   );

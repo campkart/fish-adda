@@ -157,7 +157,7 @@ export function WhatsAppLink({
   );
 }
 
-export function WhatsAppFab() {
+/*export function WhatsAppFab() {
   return (
     <a
       href={waLink("Hi Fish Adda! I'd like to know more about the adda.")}
@@ -169,4 +169,4 @@ export function WhatsAppFab() {
       <WhatsAppIcon className="h-7 w-7" />
     </a>
   );
-}
+}*/
