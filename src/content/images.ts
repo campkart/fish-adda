@@ -19,9 +19,9 @@ import dishChicken from "../assets/dish-chicken.jpg";
 import dishVeg from "../assets/dish-veg.jpg";
 import dishFry from "../assets/dish-fry.jpg";
 import dishMaggi from "../assets/dish-maggi.jpg";
-import dishPasta from "../assets/dish-pasta.jpg";
-import dishMomo from "../assets/dish-momo.jpg";
-import dishTea from "../assets/dish-tea.jpg";
+//import dishPasta from "../assets/dish-pasta.jpg";
+//import dishMomo from "../assets/dish-momo.jpg";
+import dishTea from "../assets/dish-tea.png";
 import dishCoffee from "../assets/dish-coffee.jpg";
 import dishSoftDrink from "../assets/dish-softdrink.jpg";
 
@@ -44,8 +44,8 @@ export const IMAGES = {
   dishVeg,
   dishFry,
   dishMaggi,
-  dishPasta,
-  dishMomo,
+  //dishPasta,
+  //dishMomo,
   dishTea,
   dishCoffee,
   dishSoftDrink,

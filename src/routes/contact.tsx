@@ -66,14 +66,14 @@ function ContactPage() {
                   {BRAND.email}
                 </a>
               </p>
-              <p className="eyebrow mt-5 inline-flex rounded-full bg-mustard px-3 py-1.5 text-brick-deep">
+              {/* <p className="eyebrow mt-5 inline-flex rounded-full bg-mustard px-3 py-1.5 text-brick-deep">
                 Opening Soon
-              </p>
+              </p> */}
               <WaveLine className="mt-6 h-4 w-32 text-indigo/50" />
             </div>
 
             <div className="mt-6 flex flex-wrap gap-3">
-              <WhatsAppLink message={CONTACT.whatsappMessage}>{CONTACT.whatsappCta}</WhatsAppLink>
+              {/* <WhatsAppLink message={CONTACT.whatsappMessage}>{CONTACT.whatsappCta}</WhatsAppLink> */}
               <ButtonLink href={`mailto:${BRAND.email}`} variant="outline">
                 {CONTACT.emailCta}
               </ButtonLink>

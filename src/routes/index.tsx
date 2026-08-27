@@ -54,9 +54,9 @@ function Home() {
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <ButtonLink to="/menu">{HOME.hero.primaryCta}</ButtonLink>
-              <WhatsAppLink message={HOME.hero.whatsappMessage} variant="outline">
+              {/* <WhatsAppLink message={HOME.hero.whatsappMessage} variant="outline">
                 {HOME.hero.whatsappCta}
-              </WhatsAppLink>
+              </WhatsAppLink> */}
             </div>
             <p className="mt-6 flex items-center gap-2 text-sm font-semibold text-brick">
               <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
@@ -207,9 +207,9 @@ function Home() {
               <ButtonLink to="/contact" variant="cream">
                 {HOME.launch.primaryCta}
               </ButtonLink>
-              <WhatsAppLink message={HOME.launch.whatsappMessage} variant="ghostCream">
+              {/* <WhatsAppLink message={HOME.launch.whatsappMessage} variant="ghostCream">
                 {HOME.launch.whatsappCta}
-              </WhatsAppLink>
+              </WhatsAppLink> */}
             </div>
           </Reveal>
         </div>
@@ -232,9 +232,9 @@ function Home() {
                 <br />
                 {BRAND.companyAddress.line2}
               </address>
-              <p className="eyebrow mt-5 inline-flex rounded-full bg-mustard px-3 py-1.5 text-brick-deep">
+              {/* <p className="eyebrow mt-5 inline-flex rounded-full bg-mustard px-3 py-1.5 text-brick-deep">
                 Opening Soon
-              </p>
+              </p> */}
             </div>
           </Reveal>
           <Reveal delay={120}>
