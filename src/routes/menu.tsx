@@ -178,13 +178,13 @@ function MenuPage() {
             {MENU_PAGE.pricingNote}
           </p>
 
-          <div className="mt-6">
+          {/* <div className="mt-6">
             <WhatsAppLink
               message={MENU_PAGE.whatsappMessage}
             >
               {MENU_PAGE.whatsappCta}
             </WhatsAppLink>
-          </div>
+          </div> */}
 
         </div>
       </section>

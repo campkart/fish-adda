@@ -24,7 +24,7 @@ import nonVegMaggi from "../assets/Menu/Maggi/Non-Veg Maggi.webp";
 import vegMaggi from "../assets/Menu/Maggi/Veg Maggi.webp";
 
 import darjeelingChickenMomo from "../assets/Menu/Momo/Darjeeling Chicken Momo.webp";
-import gandharajMomo from "../assets/Menu/Momo/Gandharaj Momo.webp";
+import FishMomo from "../assets/Menu/Momo/Fish Momo.webp";
 import kurkureMomo from "../assets/Menu/Momo/Kurkure Momo.webp";
 import panFriedMomo from "../assets/Menu/Momo/Pan Fried Momo.webp";
 
@@ -92,7 +92,7 @@ export const MENU_ITEM_IMAGES: Record<string, string> = {
 
   /* Momo */
   "Darjeeling Chicken Momo": darjeelingChickenMomo,
-  "Gandharaj Momo": gandharajMomo,
+  "Fish Momo": FishMomo,
   "Kurkure Momo": kurkureMomo,
   "Pan Fried Momo": panFriedMomo,
 
@@ -198,7 +198,7 @@ export const MENU: MenuCategory[] = [
     image: IMAGES.dishMomo,
     items: [
       "Darjeeling Chicken Momo",
-      "Gandharaj Momo",
+      "Fish Momo",
       "Kurkure Momo",
       "Pan Fried Momo",
     ],
