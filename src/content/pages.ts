@@ -26,9 +26,9 @@ export const ADDA_MODULES = [
 
 export const HOME = {
   seo: {
-    title: "Fish Adda — The New Food Adda of Behala | Opening Soon, Parnasree",
+    title: "Fish Adda — The New Food Adda of Behala | Parnasree",
     description:
-      "Fish Adda, a new QSR by Jyoty Food And Beverages, opens soon at Parnasree, Behala, Kolkata. Fish fry, rolls, momos, maggi, pasta, tea and coffee in a Bengali folk-art adda.",
+      "Fish Adda, a new QSR by Jyoty Food And Beverages, open at Parnasree, Behala, Kolkata. Fish fry, rolls, momos, maggi, pasta, tea and coffee in a Bengali folk-art adda.",
     ogTitle: "Fish Adda — The New Food Adda of Behala",
     ogDescription: "Parnasree, Behala, Kolkata. Food, people and the spirit of adda.",
   },
@@ -63,7 +63,7 @@ export const HOME = {
     eyebrow: "The first adda is almost ready.",
     line1: "Parnasree",
     line2: "• Behala •",
-    sub: "Our first Fish Adda is opening soon in Parnasree, Behala.",
+    sub: "Join us for our first-ever Fish Adda this Wednesday, 2nd September, from 5 PM onwards at Parnasree, Behala.",
     primaryCta: "Get Launch Updates",
     whatsappCta: "WhatsApp Us",
     whatsappMessage: "Hi Fish Adda! Keep me posted about the launch.",
@@ -75,9 +75,9 @@ export const MENU_PAGE = {
   seo: {
     title: "The Adda Menu — Fish Fry, Momo, Maggi & Tea | Fish Adda Behala",
     description:
-      "Explore the Fish Adda menu: fish fry and rolls, chicken and veg bites, momos, maggi, pasta, tea, coffee and coolers — opening soon in Parnasree, Behala.",
+      "Explore the Fish Adda menu: fish fry and rolls, chicken and veg bites, momos, maggi, pasta, tea, coffee and coolers .",
     ogTitle: "The Adda Menu — Fish Adda, Behala",
-    ogDescription: "A little bit of everything you'll crave, opening soon in Parnasree, Behala.",
+    ogDescription: "A little bit of everything you'll crave, Parnasree, Behala.",
   },
   eyebrow: "• Parnasree, Behala",
   title: "The Adda Menu",
@@ -132,7 +132,7 @@ export const CONTACT = {
   seo: {
     title: "Contact & Launch Updates — Fish Adda, Parnasree Behala Kolkata",
     description:
-      "Get launch updates from Fish Adda, opening soon at 21 Kalicharan Dutta Road, Behala, Kolkata – 700061. Email connect.fishadda@gmail.com.",
+      "Get launch updates from Fish Adda, 21 Kalicharan Dutta Road, Behala, Kolkata – 700061. Email connect.fishadda@gmail.com.",
     ogTitle: "Come Find the Adda — Fish Adda Contact",
     ogDescription: "Fish Adda opens soon in Parnasree, Behala. Sign up for launch updates.",
   },

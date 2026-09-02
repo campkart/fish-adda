@@ -84,7 +84,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Fish Adda is a new QSR opening soon at Parnasree, Behala, Kolkata — fish favourites, momos, maggi, pasta, tea and coffee in a Bengali folk-art adda.",
+          "Fish Adda is a new QSR at Parnasree, Behala, Kolkata — fish favourites, momos, maggi, pasta, tea and coffee in a Bengali folk-art adda.",
       },
       { name: "author", content: "Jyoty Food And Beverages" },
       { property: "og:site_name", content: "Fish Adda" },
@@ -111,7 +111,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           name: "Fish Adda",
           alternateName: "Fish Adda Parnasree",
           description:
-            "Fish Adda is a neighbourhood QSR opening soon at Parnasree, Behala, Kolkata, serving fish snacks, chicken and veg bites, momos, maggi, pasta, tea, coffee and drinks.",
+            "Fish Adda is a neighbourhood QSR at Parnasree, Behala, Kolkata, serving fish snacks, chicken and veg bites, momos, maggi, pasta, tea, coffee and drinks.",
           servesCuisine: ["Bengali", "Indian", "Fast Food", "Cafe"],
           parentOrganization: { "@type": "Organization", name: "Jyoty Food And Beverages" },
           email: "connect.fishadda@gmail.com",
