@@ -1,3 +1,24 @@
+
+
+import { createFileRoute } from "@tanstack/react-router";
+
+export const Route = createFileRoute("/")({
+  component: Home,
+});
+
+function Home() {
+  return (
+    <main className="flex min-h-screen items-center justify-center bg-white">
+      <h1 className="text-xl font-semibold text-gray-700">
+        Error!
+      </h1>
+    </main>
+  );
+}
+
+
+
+
 // import { createFileRoute } from "@tanstack/react-router";
 // import {
 //   AlpanaBorder,
@@ -34,7 +55,7 @@
 // function Home() {
 //   return (
 //     <>
-//       {/* HERO */}
+//       HERO
 //       <section className="paper relative overflow-hidden bg-cream">
 //         <FolkSun className="float-slow pointer-events-none absolute -right-6 top-6 h-24 w-24 text-mustard/45" />
 //         <FolkBird className="pointer-events-none absolute left-6 top-10 h-6 w-16 text-brick/25" />
@@ -80,6 +101,9 @@
 //         </div>
 //         <AlpanaBorder tone="brick" className="opacity-70" />
 //       </section>
+
+
+
 
 //       {/* INTRO */}
 //       <section className="bg-cream px-5 py-14 sm:px-6 lg:py-20">
@@ -253,3 +277,5 @@
 //     </>
 //   );
 // }
+
+

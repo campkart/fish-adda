@@ -9,12 +9,18 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as IndexRouteImport } from './routes/index'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as FoundersRouteImport } from './routes/founders'
 import { Route as FranchiseRouteImport } from './routes/franchise'
 import { Route as MenuRouteImport } from './routes/menu'
 import { Route as StoryRouteImport } from './routes/story'
 
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
@@ -42,6 +48,7 @@ const StoryRoute = StoryRouteImport.update({
 } as any)
 
 export interface FileRoutesByFullPath {
+  '/': typeof IndexRoute
   '/contact': typeof ContactRoute
   '/founders': typeof FoundersRoute
   '/franchise': typeof FranchiseRoute
@@ -49,6 +56,7 @@ export interface FileRoutesByFullPath {
   '/story': typeof StoryRoute
 }
 export interface FileRoutesByTo {
+  '/': typeof IndexRoute
   '/contact': typeof ContactRoute
   '/founders': typeof FoundersRoute
   '/franchise': typeof FranchiseRoute
@@ -57,6 +65,7 @@ export interface FileRoutesByTo {
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
+  '/': typeof IndexRoute
   '/contact': typeof ContactRoute
   '/founders': typeof FoundersRoute
   '/franchise': typeof FranchiseRoute
@@ -65,13 +74,21 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/contact' | '/founders' | '/franchise' | '/menu' | '/story'
+  fullPaths: '/' | '/contact' | '/founders' | '/franchise' | '/menu' | '/story'
   fileRoutesByTo: FileRoutesByTo
-  to: '/contact' | '/founders' | '/franchise' | '/menu' | '/story'
-  id: '__root__' | '/contact' | '/founders' | '/franchise' | '/menu' | '/story'
+  to: '/' | '/contact' | '/founders' | '/franchise' | '/menu' | '/story'
+  id:
+    | '__root__'
+    | '/'
+    | '/contact'
+    | '/founders'
+    | '/franchise'
+    | '/menu'
+    | '/story'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
+  IndexRoute: typeof IndexRoute
   ContactRoute: typeof ContactRoute
   FoundersRoute: typeof FoundersRoute
   FranchiseRoute: typeof FranchiseRoute
@@ -81,6 +98,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/contact': {
       id: '/contact'
       path: '/contact'
@@ -120,6 +144,7 @@ declare module '@tanstack/react-router' {
 }
 
 const rootRouteChildren: RootRouteChildren = {
+  IndexRoute: IndexRoute,
   ContactRoute: ContactRoute,
   FoundersRoute: FoundersRoute,
   FranchiseRoute: FranchiseRoute,
